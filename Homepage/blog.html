@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs & Tweets - Mapako</title>
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="page-header">
+    <div class="fixed-width clearfix">
+        <em class="identity">Mapako</em>
+        <h1>Blog Homepage</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage<em>Home</em></a></li>
+                <li><a href="aboutus.html">Who are we?<em>About us</em></a></li>
+                <li><a href="#">Latest News<em>Blog</em></a></li>
+                <li><a href="contactus.html">Get in touch<em>Contact us</em></a></li>
+                <li><a href="employment.html">Job?<em>Register</em></a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="fixed-width">
+
+    <!-- Main Blog/Tweets Section -->
+    <section class="main-visual data-block">
+        <figcaption class="clearfix">
+            <strong class="title">Blog/Tweets!</strong>
+
+            <!-- New Post -->
+            <article>
+                <h2>New Post</h2>
+                <p>
+                    Dr. Tonedari Mapako has achieved a new role in the <strong>Mapako Company</strong>, moving from Manager to Co-Founder. It's important for him to succeed in this position. 'But good job' for our Dr. T Mapako.
+                </p>
+                <img src="images/dad.png" alt="Co-Founder">
+                <p>This is our new Co-Founder.</p>
+            </article>
+
+            <!-- Old Post -->
+            <article>
+                <h2>Old Post</h2>
+                <p>
+                    The owner of Mapako Company, <strong>Tinevimbo Mapako</strong>, brought in his father, <strong>Dr. Tonedari Mapako</strong>, from the <strong>National Blood Service of Zimbabwe</strong> to join the <strong>Mapako Company</strong> at an intermediate-level role. 'Hope he does well in his new job.'
+                </p>
+            </article>
+
+            <!-- 1 Week Ago -->
+            <article>
+                <h2>1 Week Ago</h2>
+                <p>
+                    Welcome people of God to this new website made by Tinevimbo Mapako with the help of Udemy and his supporting family.
+                </p>
+                <img src="images/owner.png" alt="Founder">
+                <p>This is our best Founder.</p>
+                <img src="images/fam.png" alt="Family">
+                <p>This is my supporting family.</p>
+            </article>
+
+        </figcaption>
+    </section>
+
+</main>
+
+<footer class="page-footer">
+    <div class="page-footer-content fixed-width clearfix">
+        <small class="copyright">All Content &copy; <span id="year"></span> Mapako. All Rights Reserved</small>
+        <small class="credits">Site Designed by <a href="https://www.udemy.com/">Udemy</a></small>
+    </div>
+</footer>
+
+<script>
+    // Auto-update copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
